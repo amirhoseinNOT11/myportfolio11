@@ -1,0 +1,134 @@
+
+/* =====================================================projects================================================================ */
+.projects-container {
+  width: 80%;
+  margin: 50px auto 0;
+position: relative;
+}
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.title-projects {
+  margin: 7rem auto 0;
+  width: 80%;
+}
+.title-projects .title-caption {
+  font-size: 16px;
+  color: #dadde4;
+  padding-top: 12px;
+}
+.title-hilight {
+  color: #c778dd;
+}
+.projects-container .projects-title-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.projects-container .projects-title-box .projects-title {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 600;
+  position: relative;
+}
+.projects-list .project-section {
+  border: 1px solid #abb2bf;
+  width: 32%;
+}
+.projects-list .project-section .project-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+.projects-list .project-section .project-tecnologis {
+  border-block: 1px solid #abb2bf;
+  color: #abb2bf;
+  padding: 0.5rem;
+}
+.projects-list .project-section .project-info-box {
+    padding: 0.7rem 1rem;
+}
+.projects-list .project-section .project-info-box .project-name{
+    font-size:1.3rem;
+}
+.projects-list .project-section .project-info-box .project-text {
+  margin: 1rem 0;
+  color: #abb2bf;
+}
+.projects-list .project-section .project-action {
+  display: flex;
+  gap: 1rem;
+}
+.projects-list
+  .project-section
+  .project-info-box
+  .project-action
+  .project-link {
+  border: 1px solid #c778dd;
+  padding: 0.2rem 0.7rem;
+  transition: all 0.3s;
+}
+.projects-list
+  .project-section
+  .project-info-box
+  .project-action
+  .project-link:hover {
+  background-color: #c778dd34;
+}
+.projects-list
+  .project-section
+  .project-info-box
+  .project-action
+  .project-cached {
+  color: #abb2bf;
+  padding: 0.2rem 0.7rem;
+  border: 1px solid #abb2bf;
+  transition: all 0.3s;
+}
+.projects-list
+  .project-section
+  .project-info-box
+  .project-action
+  .project-cached:hover {
+  background-color: #abb2bf59;
+}
+.small-projects{
+    margin-bottom: 7rem;
+}
+/* ===================================shape=================================== */
+.tree-shape{
+    width: 100px;
+    height: 110px;
+    border: 1px solid #abb2bf;
+    position: absolute;
+    top: 0px;
+    right:-17%;
+  }
+.fore-shape{
+    width: 100px;
+    height: 110px;
+    border: 1px solid #abb2bf;
+    position: absolute;
+    top: -30px;
+    left:-17%;
+  }
+  .five-shape{
+    position: absolute;
+  top: 100px;
+  right:-13%;
+  
+  }
+  .six-shape{
+    position: absolute;
+  top:380px;
+  left:-16%;
+  }
+  .seven-shape{
+    position: absolute;
+  top:250px;
+  left:-14%;
+  }

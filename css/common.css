@@ -1,0 +1,101 @@
+/* =============================header=================================*/
+.main-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 10% 15px;
+    background-color: #282c33;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+  }
+  .logo-header .logo-name {
+    letter-spacing: 2px;
+  }
+  
+  .logo-header {
+    display: flex;
+    gap: 0.3rem;
+  }
+  .header-list {
+    display: flex;
+    gap: 1rem;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .header-list .menu-option.active {
+    color: white;
+  }
+  
+  .sharp-sing {
+    color: rgb(176, 139, 212);
+  }
+  .menu-option {
+    color: #abb2bf;
+    transition: all 0.3s;
+    padding: 1px 0.5rem;
+  }
+  .menu-option:hover {
+    color: white;
+  }
+  
+  #icon-name-header {
+    padding-right: 5px;
+  }
+  /* ===============================dor=========================== */
+.dor-fixed{
+    display:inline-flex;
+    flex-direction: column;
+    gap: 5px;
+    position: fixed;
+    top: 0;
+    left: 15px;
+    z-index:101;
+  }
+  .dor-fixed::before{
+  content:"";
+  height: 9rem;
+  width: 1px;
+  background-color: #abb2bf;
+  margin: 0 auto;
+  transform: translateX(-50%);
+  }
+  .dor-fixed .link-fixed{
+    font-size: 1.2rem;
+    color: #abb2bf;
+    transition: color 0.3s;
+  }
+  .dor-fixed .link-fixed:hover{
+    color: white;
+  }
+ /* =======================footer======================= */
+footer{
+  width: 80%;
+margin: 0 auto;
+}
+footer .img-footer{
+  width: 15px;
+  height: 15px;
+display: block;
+}
+footer p:first-of-type{
+  padding: 10px 0 25px;
+  color: rgb(211, 211, 211);
+}
+footer .logo-header{
+  display: inline-flex;
+  align-items: center;
+  margin-top:1rem;
+}
+footer p:last-child{
+  color: #abb2bf;
+  width: 100%;
+  text-align: center;
+font-size:13px;
+margin-bottom: 15px;
+}
+footer p a{
+  color: #abb2bf;
+}
