@@ -1,17 +1,14 @@
-body{
-  font-size: 16px;
-}
 /* ==============================my info================================ */
 .my-info {
   display: flex;
-  width: 80%;
-  margin: 2.5rem auto 4rem;
+  width: 75%;
+  margin: 2rem auto 0;
   justify-content: space-between;
   align-items: center;
   height: 100dvh;
 }
-.my-info .left-section h3{
-  font-size:x-large;
+.my-info .left-section h2{
+  font-size:2rem;
 }
 .my-info .banner-img {
   width: 450px;
@@ -27,23 +24,20 @@ body{
   top: -15px;
   background-color: #282c33;
 }
-.my-info .left-section h2 {
-  font-size: 1.8rem;
-}
 
 .title-hilight {
   color: #c778dd;
 }
 .my-info .left-section p {
   color: #abb2bf;
-  font-size: 1rem;
-  margin: 1rem 0;
+  font-size: 1.2rem;
+  margin: 2.3rem 0;
 }
 .my-info .left-section a {
   display: inline-block;
   border: 1px solid #c778dd;
-  padding: 5px 8px;
-  font-size: 0.9rem;
+  padding: 10px 15px;
+  font-size: 1rem;
   background-color: #282c33;
   transition: all 0.3s;
 }
@@ -67,7 +61,7 @@ body{
 .slogan-container .slogan-box {
   border: 2px solid #abb2bf;
   display: inline-block;
-  padding: 0.8rem 1.2rem;
+  padding: 1.8rem;
   position: relative;
 }
 .slogan-container .slogan-box .quote {
@@ -87,7 +81,7 @@ body{
 /* ======================================================projects section============================================================ */
 
 .projects-container {
-  width: 80%;
+  width: 75%;
   margin: 6rem auto 0;
 }
 
@@ -106,7 +100,7 @@ body{
 
 .projects-container .projects-title-box .projects-title {
   display: flex;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 400;
   position: relative;
 }
@@ -187,8 +181,9 @@ body{
 }
 /* ==================================================my skills================================================= */
 .skills-container {
-  width: 80%;
-  margin: 7rem auto;
+  width: 75%;
+  margin: 7rem auto 2rem;
+  height: 60dvh;
 }
 .skills-container .skills-title-box {
   display: flex;
@@ -196,7 +191,7 @@ body{
 .skills-container .skills-title-box .skills-title {
   position: relative;
   margin-bottom: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 400;
 }
 
@@ -212,7 +207,7 @@ body{
 }
 .skills-list {
   display: flex;
-  gap: 15px;
+  gap: 20px;
 }
 .skills-column {
   width: 100%;
@@ -225,7 +220,7 @@ body{
 
 .skills-column .skills-box .box-header {
   border-bottom: 1px solid #abb2bf;
-  padding: 0.3rem 0.6rem;
+  padding: 0.5rem 0.6rem;
   font-weight: 500;
 }
 
@@ -236,7 +231,7 @@ body{
 .skills-column .skills-box .box-content {
   padding: 0.3rem 0.5rem;
   color: #abb2bf;
-  line-height: 1.7rem;
+  line-height: 2.5rem;
 }
 /* ====================================================about================================================ */
 
@@ -246,7 +241,7 @@ body{
 .about-container .about-title-box .about-title {
   position: relative;
   margin-bottom: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 400;
 }
 
@@ -262,7 +257,7 @@ body{
 }
 
 .about-container {
-  width: 80%;
+  width: 75%;
   margin: 7rem auto;
 }
 .about-container .about-title-box {
@@ -275,7 +270,7 @@ body{
 }
 .about-container .about-section-box .about-more {
   border: 1px solid #c778dd;
-  padding: 0.3rem;
+  padding: 0.5rem;
   transition: all 0.3s;
 }
 .about-container .about-section-box .about-more:hover {
@@ -286,7 +281,7 @@ body{
 }
 
 .about-container .about-section-box .about-section1 .about-ditaled-p {
-  padding: 25px 0 50px;
+  padding: 25px 0 65px;
   color: #abb2bf;
 }
 .about-container .about-section-box .about-section1 {
@@ -299,8 +294,8 @@ body{
 }
 .about-container .about-section-box .about-section2 .about-img {
   margin-top: -50px;
-  width: 370px;
-  height: 370px;
+  width: 400px;
+  height: 400px;
   object-fit: contain;
   text-align: right;
   border-bottom: 1px solid #c778dd;
@@ -308,14 +303,14 @@ body{
 .about-container .about-section-box .about-section2 .shape-img {
   position: absolute;
   top: -18px;
-  left: 225px;
+  left: 170px;
   z-index: -11;
 }
 /* =========================================================contact========================================================== */
 
 .contact-container {
-  width: 80%;
-  margin: 0 auto;
+  width: 75%;
+  margin: 0 auto 6rem;
 }
 .about-container .about-title-box {
   display: flex;
@@ -323,7 +318,7 @@ body{
 .contact-container .contact-title-box .contact-title {
   position: relative;
   margin-bottom: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 400;
 }
 
@@ -357,7 +352,7 @@ body{
 .contact-section-box .right-section .message-box {
   border: 1px solid #abb2bf;
   display: inline-block;
-  padding: 0.5rem 0.7rem;
+  padding: 0.7rem 1rem;
   width: 13rem;
   text-align: left;
 }
@@ -368,7 +363,7 @@ body{
 .contact-section-box .right-section .message-box .social-list {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.7rem;
 }
 .contact-section-box .right-section .message-box .social-list .opation-list {
   color: #abb2bf;

@@ -1,18 +1,19 @@
 
 /* =====================================================projects================================================================ */
 .projects-container {
-  width: 80%;
-  margin: 50px auto 0;
+  width: 75%;
+  margin: 70px auto 0;
 position: relative;
 }
 .projects-list {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  margin-bottom: 5rem;
 }
 .title-projects {
-  margin: 7rem auto 0;
-  width: 80%;
+  margin: 8rem auto 0;
+  width: 75%;
 }
 .title-projects .title-caption {
   font-size: 16px;
@@ -30,7 +31,7 @@ position: relative;
 }
 .projects-container .projects-title-box .projects-title {
   display: flex;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
   position: relative;
 }
@@ -106,7 +107,7 @@ position: relative;
     border: 1px solid #abb2bf;
     position: absolute;
     top: 0px;
-    right:-17%;
+    right:-21%;
   }
 .fore-shape{
     width: 100px;
@@ -114,21 +115,21 @@ position: relative;
     border: 1px solid #abb2bf;
     position: absolute;
     top: -30px;
-    left:-17%;
+    left:-20%;
   }
   .five-shape{
     position: absolute;
   top: 100px;
-  right:-13%;
+  right:-18%;
   
   }
   .six-shape{
     position: absolute;
   top:380px;
-  left:-16%;
+  left:-20%;
   }
   .seven-shape{
     position: absolute;
   top:250px;
-  left:-14%;
+  left:-20%;
   }

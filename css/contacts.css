@@ -1,0 +1,98 @@
+body{
+    overflow-y: hidden;
+}
+/* =========================================================contact========================================================== */
+
+.contact-container {
+    width: 75%;
+    margin: 7rem auto 1.5rem;
+  }
+  .about-container .about-title-box {
+    display: flex;
+  }
+  .contact-container .contact-title-box .contact-title {
+    position: relative;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+  .contact-container .contact-section-box {
+      display: flex;
+  }
+  .contact-container .contact-section-box .left-section {
+    width: 60%;
+  }
+  .contact-container .contact-section-box .left-section .contact-p {
+    color: #abb2bf;
+  }
+  .contact-container .contact-section-box .left-section p {
+    padding-bottom: 1.3rem;
+  }
+  .contact-container .contact-section-box .right-section {
+    width:40%;
+    text-align: right;
+    align-self: flex-center;
+  }
+  .contact-section-box .right-section .message-box {
+    border: 1px solid #abb2bf;
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    width: 15rem;
+    text-align: left;
+  }
+  .title-hilight{
+    color: #c778dd;
+  }
+  .contact-section-box .right-section .message-box .message-header-title {
+      padding: 5px 0 0.7rem;
+  }
+  .contact-section-box .right-section .message-box .social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .contact-section-box .right-section .message-box .social-list .opation-list {
+      color: #abb2bf;
+    transition: all 0.3s;
+}
+.contact-section-box
+    .right-section
+    .message-box
+    .social-list
+    .opation-list:hover {
+    color: white;
+  }
+  .contact-section-box
+    .right-section
+    .message-box
+    .social-list
+    .opation-list
+    .icon-contact {
+        padding-right: 7px;
+        font-size: 1.3rem;
+  }
+
+  .more-contact-box {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .more-contact-box .more-contact {
+    position: relative;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+  .end-contact-box{
+    width: 75%;
+    margin: 0 auto 3rem;
+  }
+  .end-contact-box .end-contact{
+    color: #abb2bf;
+    padding-right: 1rem;
+  }
+  .end-contact-box .end-contact .contact-icon{
+    padding-right: 6px;
+    font-size: 20px;
+  }
+  
